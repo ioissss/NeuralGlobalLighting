@@ -8,10 +8,7 @@
 
 离线训练Unet，经过测试，模型有一定的泛化能力，用多个场景的训练集训练Unet，可以迁移至新的场景。
 # 效果
-测试场景 - living-room
-
-![image](https://github.com/user-attachments/assets/b4ee5a64-8022-4848-bd21-3db94f77adb7)
-
+测试场景 - living room
 | 原图-4096SPP | 预测间接光照效果 | 伪影 |
 | --- | --- | --- |
 | ![原图](https://github.com/user-attachments/assets/f35c2e83-7f72-4dc1-8e9e-2841efdbe78c) | ![迭代后](https://github.com/user-attachments/assets/9863c978-5c9a-44bd-91fe-75ad73a4baa4) | ![伪影](https://github.com/user-attachments/assets/8d9f728f-a22d-42ec-b5d5-87221f81b871) |
